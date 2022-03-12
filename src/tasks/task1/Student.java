@@ -1,5 +1,7 @@
 package tasks.task1;
 
+import java.util.Objects;
+
 public class Student {
     private byte classRollNumber;
     private String firstName;
@@ -43,5 +45,18 @@ public class Student {
 
     public void setCurrentYear(byte currentYear) {
         this.currentYear = currentYear;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Student student = (Student) o;
+        return classRollNumber == student.classRollNumber && currentYear == student.currentYear && Objects.equals(firstName, student.firstName) && Objects.equals(lastName, student.lastName);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(classRollNumber, firstName, lastName, currentYear);
     }
 }
