@@ -12,4 +12,36 @@ public class Student {
         this.lastName = lastName;
         this.currentYear = currentYear;
     }
+
+    public byte getClassRollNumber() {
+        return classRollNumber;
+    }
+
+    public void setClassRollNumber(byte classRollNumber) {
+        this.classRollNumber = classRollNumber;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public byte getCurrentYear() {
+        return currentYear;
+    }
+
+    public void setCurrentYear(byte currentYear) {
+        this.currentYear = currentYear;
+    }
 }
