@@ -1,5 +1,4 @@
 package tasks.task1;
 
-public class UserName {
-    private String userName;
+public record UserName(String userName) {
 }
