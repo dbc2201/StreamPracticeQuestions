@@ -21,9 +21,8 @@ class PortalCredentialsCreatorTest {
     @Test
     void createEmptyListOfUserNames() {
         // create an empty list of usernames
-        List<UserName> userNames = List.of();
         // mark this empty list as the expected value
-        var expected = userNames;
+        var expected = List.<UserName>of();
         // create an empty list of students
         List<Student> students = List.of();
         // use this empty list to call the method being tested
