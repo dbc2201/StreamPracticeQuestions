@@ -37,12 +37,7 @@ class PortalCredentialsCreatorTest {
 
     private Student createFakeStudent() {
         Faker faker = new Faker(new Locale("en-IND"));
-        return new Student(
-                (byte) faker.number().randomDigit(),
-                faker.name().firstName(),
-                faker.name().lastName(),
-                (byte) faker.number().numberBetween(1, 4)
-        );
+        return new Student((byte) faker.number().randomDigit(), faker.name().firstName(), faker.name().lastName(), (byte) faker.number().numberBetween(1, 4));
     }
 
     private List<Student> createListOfFakeStudents(int number) {
@@ -55,7 +50,10 @@ class PortalCredentialsCreatorTest {
 
     @Test
     void createDistinctUserNames() {
-
+        var fakeStudentList = createListOfFakeStudents(10);
+        var expected = creator.createListOfUserNames(fakeStudentList).stream().distinct().toList();
+        var actual = creator.createListOfUserNames(fakeStudentList);
+        Assertions.assertEquals(expected, actual, "The list of students possibly contains duplicates!");
     }
 
     @Test
