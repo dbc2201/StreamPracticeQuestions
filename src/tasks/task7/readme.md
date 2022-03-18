@@ -14,7 +14,7 @@ Create a java class file called `Book.java`. The `Book.java` class should contai
    Create a java class file called `CollegeLibrary.java`. The class should contain the following two methods:
 
 * ```java
-   public List<Book> getListOfExpensiceBooks(Set<Book> books) {} 
+   public List<Book> getListOfExpensiveBooks(Set<Book> books) {} 
    ```
   This method input a `Set` of `Book` type and returns a `List` of `Book` type. An expensive book is a book whose price
   is at least 5,000 INR or more. If such a book exists, make sure that the returning list should not have duplicate
