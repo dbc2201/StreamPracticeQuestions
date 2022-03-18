@@ -8,4 +8,7 @@ public class CollegeLibrary {
         return List.of();
     }
 
+    public Book findBookDetailsByISBN(List<Book> books, String ISBN) {
+        return new Book();
+    }
 }

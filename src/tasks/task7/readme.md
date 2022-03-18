@@ -21,7 +21,7 @@ Create a java class file called `Book.java`. The `Book.java` class should contai
   names. If there are two books by the same author, even with different names, they should be considered as same.
 
 * ```java
-   public Book findBookDeatilsByISBN(List<Book> books, String ISBN) {}
+   public Book findBookDetailsByISBN(List<Book> books, String ISBN) {}
    ```
   This method will find a book by the ISBN-number and return it. Make sure even if there is not such book, the method
   should not return `null`.
