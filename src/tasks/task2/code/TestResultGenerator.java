@@ -7,4 +7,8 @@ public class TestResultGenerator {
     public HashSet<String> getDetailsOfFailedStudents(Set<Student> studentSet) {
         return new HashSet<>();
     }
+
+    public Set<Student> sortStudentsForRanking(HashSet<Student> studentSet) {
+        return Set.of();
+    }
 }
