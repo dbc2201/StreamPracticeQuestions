@@ -9,6 +9,8 @@ import tasks.task1.UserName;
 
 import java.util.List;
 
+import static java.util.List.of;
+
 class PortalCredentialsCreatorTest {
 
     private PortalCredentialsCreator creator;
@@ -24,10 +26,15 @@ class PortalCredentialsCreatorTest {
         // mark this empty list as the expected value
         var expected = List.<UserName>of();
         // create an empty list of students
-        List<Student> students = List.of();
+        List<Student> students = of();
         // use this empty list to call the method being tested
         var actual = creator.createListOfUserNames(students);
         Assertions.assertEquals(expected, actual, "Case #1: method should be able to create empty lists.");
+    }
+
+    @Test
+    void createDistinctUserNames() {
+
     }
 
     @Test
