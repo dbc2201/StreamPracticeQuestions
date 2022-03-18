@@ -1,0 +1,26 @@
+<component name="libraryTable">
+  <library name="github.javafaker" type="repository">
+    <properties maven-id="com.github.javafaker:javafaker:1.0.2" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/javafaker-1.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-lang3-3.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/snakeyaml-1.23-android.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/generex-1.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/automaton-1.11-8.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/lib/javafaker-1.0.2-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-lang3-3.5-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/snakeyaml-1.23-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/generex-1.0.2-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/automaton-1.11-8-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/javafaker-1.0.2-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-lang3-3.5-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/snakeyaml-1.23-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/generex-1.0.2-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/automaton-1.11-8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

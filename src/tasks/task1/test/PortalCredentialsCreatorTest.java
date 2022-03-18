@@ -1,5 +1,6 @@
 package tasks.task1.test;
 
+import com.github.javafaker.Faker;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -7,7 +8,9 @@ import tasks.task1.PortalCredentialsCreator;
 import tasks.task1.Student;
 import tasks.task1.UserName;
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
 
 import static java.util.List.of;
 
@@ -32,6 +35,23 @@ class PortalCredentialsCreatorTest {
         Assertions.assertEquals(expected, actual, "Case #1: method should be able to create empty lists.");
     }
 
+    private Student createFakeStudent() {
+        Faker faker = new Faker(new Locale("en-IND"));
+        return new Student(
+                (byte) faker.number().randomDigit(),
+                faker.name().firstName(),
+                faker.name().lastName(),
+                (byte) faker.number().numberBetween(1, 4)
+        );
+    }
+
+    private List<Student> createListOfFakeStudents(int number) {
+        List<Student> fakeStudentList = new ArrayList<>();
+        for (int index = 0; index < number; index++) {
+            fakeStudentList.add(createFakeStudent());
+        }
+        return fakeStudentList;
+    }
 
     @Test
     void createDistinctUserNames() {
