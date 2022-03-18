@@ -24,7 +24,8 @@ Create a java class file called `TestResultGenerator.java`. The class should con
 2. ```java
    public Set<Student> sortStudentsForRanking(HashSet<Student> studentSet) {}
    ```
-   This method inputs a Set of Student type and returns a Set of Student type. This method is supposed to sort the
-   HashSet of students in an increasing manner of their marks. Since the marks are primitive double type, you are
+   This method inputs a `Set` of `Student` type and returns a `Set` of `Student` type. This method is supposed to sort
+   the
+   `HashSet` of students in an increasing manner of their marks. Since the marks are primitive `double` type, you are
    supposed to use their natural ordering. If two students have same marks, use class roll number. Create a separate
-   execution java class called Main.java and call both the methods given above!
+   execution java class called `Main.java` and call both the methods given above!
