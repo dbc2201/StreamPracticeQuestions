@@ -20,7 +20,7 @@ class should contain the following members:
    This method inputs a list of Student type defined above, and creates a list of UserName type. Create a java class
    file called `UserName.java` and create a private field called userName, to store the user name of a student as a
    reference
-   `String` value. No two user names in the list should be the same.
+   `String` value. No two usernames in the list should be the same.
 7. ```java
    public List<PassWord> createListOfRandomPasswords(List<Student> studentsList) {}
    ```
