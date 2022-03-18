@@ -32,6 +32,7 @@ class PortalCredentialsCreatorTest {
         Assertions.assertEquals(expected, actual, "Case #1: method should be able to create empty lists.");
     }
 
+
     @Test
     void createDistinctUserNames() {
 
