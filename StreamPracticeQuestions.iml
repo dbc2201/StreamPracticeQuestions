@@ -40,5 +40,6 @@
       </library>
     </orderEntry>
     <orderEntry type="library" name="github.javafaker" level="project" />
+    <orderEntry type="library" name="apache.commons.lang3" level="project" />
   </component>
 </module>

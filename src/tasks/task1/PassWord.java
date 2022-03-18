@@ -1,5 +1,4 @@
 package tasks.task1;
 
-public class PassWord {
-    private String passWord;
+public record PassWord(String password) {
 }
