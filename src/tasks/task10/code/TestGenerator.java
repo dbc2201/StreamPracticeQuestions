@@ -7,4 +7,8 @@ public class TestGenerator {
     public Set<Patient> getAllPositivePatients(List<Patient> allPatients) {
         return Set.of();
     }
+
+    public Patient findPatient(List<Patient> patients, short patientID) {
+        return new Patient();
+    }
 }
