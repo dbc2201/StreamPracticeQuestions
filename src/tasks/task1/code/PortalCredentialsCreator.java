@@ -1,4 +1,4 @@
-package tasks.task1;
+package tasks.task1.code;
 
 import org.apache.commons.lang3.RandomStringUtils;
 

@@ -4,9 +4,9 @@ import com.github.javafaker.Faker;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import tasks.task1.PortalCredentialsCreator;
-import tasks.task1.Student;
-import tasks.task1.UserName;
+import tasks.task1.code.PortalCredentialsCreator;
+import tasks.task1.code.Student;
+import tasks.task1.code.UserName;
 
 import java.util.ArrayList;
 import java.util.List;
