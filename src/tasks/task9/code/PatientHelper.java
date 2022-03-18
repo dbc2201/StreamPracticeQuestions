@@ -7,4 +7,9 @@ public class PatientHelper {
     public Set<Patient> getAllOldPatients(List<Patient> patients) {
         return Set.of();
     }
+
+    public List<Patient> sortPatientsAccordingToDecreasingAge(List<Patient> patients) {
+        return List.of();
+    }
+
 }
