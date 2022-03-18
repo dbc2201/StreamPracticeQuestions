@@ -2,6 +2,7 @@ package tasks.task3.test;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 class EmployeeLeaveCalculatorTest {
 
@@ -11,5 +12,13 @@ class EmployeeLeaveCalculatorTest {
 
     @AfterEach
     void tearDown() {
+    }
+
+    @Test
+    void getDefaulterEmployeeIDList() {
+    }
+
+    @Test
+    void getNumberOfLeaves() {
     }
 }
