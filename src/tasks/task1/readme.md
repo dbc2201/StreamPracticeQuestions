@@ -29,4 +29,4 @@ class should contain the following members:
    reference
    `String value`. The value of a password should be a random string of length 8-20.
 
-* Create a separate execution java class called Main.java and call both the methods given above!
+* Create a separate execution java class called `Main.java` and call both the methods given above!
