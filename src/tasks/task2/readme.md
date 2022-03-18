@@ -19,7 +19,9 @@ Create a java class file called `TestResultGenerator.java`. The class should con
    ```
    This method inputs a Set of Student type and returns a HashSet of String type. A single element in the returning
    HashSet will be a String that contains the concatenated name and parent's contact number of a student, e.g.
+   ```
    ["Divyansh-1234657890", "Vaibhav-1118529630", "Neeraj-1593574568"]
+   ```
 
 2. ```java
    public Set<Student> sortStudentsForRanking(HashSet<Student> studentSet) {}
