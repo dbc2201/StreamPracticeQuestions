@@ -4,7 +4,7 @@
  If you are a Java programmer, and new to the Stream API, this repo is for your to get
  your hands dirty in some code that works excellently with the Stream API.
 
-
+There are 13 tasks in total, try to complete them all.
 ## Authors
 
 - [@dbc2201](https://www.github.com/dbc2201)
