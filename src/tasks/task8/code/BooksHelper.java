@@ -8,4 +8,7 @@ public class BooksHelper {
         return List.of();
     }
 
+    public List<Book> sortBooks(Set<Book> books) {
+        return List.of();
+    }
 }
