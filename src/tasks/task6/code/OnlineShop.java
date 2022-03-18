@@ -7,4 +7,8 @@ public class OnlineShop {
     public List<SmartPhone> getListOfSmartPhones(Set<SmartPhone> smartPhones, byte requiredScreenSize) {
         return List.of();
     }
+
+    public List<SmartPhone> findBudgetSmartPhones(Set<SmartPhone> smartPhones) {
+        return List.of();
+    }
 }
