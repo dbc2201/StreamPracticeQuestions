@@ -22,6 +22,8 @@ There are 13 tasks in total, try to complete them all.
 12. [Task12](https://github.com/dbc2201/StreamPracticeQuestions/tree/main/src/tasks/task12#readme)
 13. [Task13](https://github.com/dbc2201/StreamPracticeQuestions/tree/main/src/tasks/task13#readme)
 
+[PDF Version](https://github.com/dbc2201/StreamPracticeQuestions/blob/main/src/res/java_stream_questions.pdf)
+
 ## Authors
 
 - [@dbc2201](https://www.github.com/dbc2201)
